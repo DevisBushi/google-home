@@ -92,8 +92,8 @@ body {
     background: #f2f2f2;
     border-top: solid 2px #e4e4e4;
   /*   position: fixed; */
-    bottom: 0;
-    padding-bottom: 0;
+    bottom: -100;
+    padding-bottom: -10;
     width: 100%;
     
   }
@@ -101,7 +101,7 @@ body {
   footer ul li {
     display: inline;
     color: #666666;
-    font-size: 14px;
+    font-size: 12px;
     padding: 13px;
   }
   
@@ -120,7 +120,7 @@ body {
   
   /* MEDIA QUERIES */
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 1600px) {
    
    li.nav-links a {
       display: none;
